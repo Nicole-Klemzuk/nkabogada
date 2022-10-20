@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap" rel="stylesheet">
+   <!--Font Awesome-->
+   <script src="https://kit.fontawesome.com/4411313456.js" crossorigin="anonymous"></script>
+   <!--Animate CSS-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Flaticon/Favicon-->
+    <link rel="icon" href="../assets/justicia.ico"></a>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Consulta</title>
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+
+        <section class="container__header">	
+
+            <section class="logo">
+                <img src="../assets/Logo-nuevo.jpg" alt="logo nk">
+            </section>
+
+            <section class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="consulta.html">Consulta</a></li>
+                        <li><a href="publicaciones.html">Publicaciones</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <i class="fa-solid fa-bars" id="icon_menu"></i>
+     </section>
+    </header>
+<!--Sección principal-->
+<main>
+<section class="container-form">
+    <h1 class="more-info">Dejanos tu consulta acá</h1>
+      <form class="contact-form" action="https://formsubmit.co/nicole.klemzuk@gmail.com" method="POST" target="_blank">
+        <input type="text" name="name" placeholder="Escribe tu nombre"
+          title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+        <input type="email" name="email" placeholder="Escribe tu email" title="Email incorrecto"
+          pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+        <input type="text" name="subject" placeholder="Asunto" title="El Asunto es requerido" required>
+        <textarea name="comments" cols="50" rows="5" placeholder="Escribe tu consulta"
+          title="Tu comentario no debe exceder los 255 caracteres" data-pattern="^.{1,255}$" required></textarea>
+        <input type="submit" value="Enviar">
+        <div class="contact-form-response none">
+          <p>Los datos han sido enviados</p>
+        </div>
+      </form>
+</section>
+</main>
+
+<!--Pie de Página-->
+<section class="container-footer">
+    <footer>
+     <section class="social-media">
+        <a class="fab fa-whatsapp" href="https://wa.me/543758480318/?text=¡Hola! quiero hacer una consulta" target="_blank"></a>
+        <a class="fab fa-facebook-f" href="https://www.facebook.com/nkabogada/" target="_blank"></a>
+        <a class="fab fa-instagram" href="https://www.instagram.com/nkabogada/" target="_blank"></a>
+        <a class="fa-solid fa-envelope" href="mailto:nicole.klemzuk@gmail.com" target="blank"></a>
+    </section>
+        <h4>&copy;2022 Nicole Klemzuk - nkabogada - Todos los derechos reservados</h4>
+ </footer>
+</section>
+
+
+
+
+<!--Enlace de JS-->
+<script src="../Js/script.js"></script>
+<script src="../Js/formularios.js" type="module"></script>
+</body>
+</html>
